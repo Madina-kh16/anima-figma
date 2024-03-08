@@ -1,0 +1,99 @@
+.products
+    padding: 59px 0
+    @media (max-width: 767px)
+        padding: 90px 24px 0
+    &__line
+        margin-top: 71px
+    &__title
+        max-width: 472px
+        @media (max-width: 767px)
+            width: 100%
+        &__line
+            width: 120px
+            height: 1px
+            background: #28553F
+            margin-bottom: 9px
+        &__text
+            color: #282A30
+            font-size: 40px
+            text-transform: uppercase
+            @media (max-width: 767px)
+                font-size: 30px
+    span
+        color: #28553F
+
+.category
+    border-radius: 4px
+    &_1
+        @include gap(10px)
+        margin-bottom: 10px
+        @media (max-width: 767px)
+            flex-direction: column
+            width: 100%
+            align-items: center
+    &_2
+        @include gap(10px)
+        @media (max-width: 767px)
+            flex-direction: column
+            width: 100%
+            align-items: center
+    &_small
+        &-countertops
+            background: url(../images/img-countertops.png) lightgray 50% / cover no-repeat
+            width: 491px
+            height: 340px
+            @media (max-width: 767px)
+                height: 237px
+                min-width: 305px
+                width: 100%
+        &-panels
+            background: url(../images/img-panels.png) lightgray 50% / cover no-repeat
+            width: 491px
+            height: 340px
+            @media (max-width: 767px)
+                height: 237px
+                min-width: 305px
+                width: 100%
+    &_big
+        &-windowsils
+            background: url(../images/img-WindowSills.png) lightgray 50% / cover no-repeat
+            width: 742px
+            height: 340px
+            @media (max-width: 767px)
+                height: 237px
+                min-width: 305px
+                width: 100%
+        &-shells
+            background: url(../images/img-shells.png) lightgray 50% / cover no-repeat
+            width: 742px
+            height: 340px
+            @media (max-width: 767px)
+                height: 237px
+                min-width: 305px
+                width: 100%
+    &__name
+        max-width: 470px
+        height: 58px
+        background: linear-gradient(177deg, rgba(0, 0, 0, 0.87) 2.22%, rgba(0, 0, 0, 0.55) 97.78%)
+        margin-top: 264px
+        color: #FFF
+        font-size: 24px
+        text-transform: uppercase
+        display: flex
+        align-items: center
+        justify-content: center
+        @media (max-width: 767px)
+            width: 100%
+            height: 48px
+            font-size: 18px
+            margin: 173px 0 0
+        &_left-big
+            margin-left: 272px
+            @media (max-width: 767px)
+                margin-top: 173px
+                margin-left: 0
+
+        &_left-small
+            margin-left: 21px
+            @media (max-width: 767px)
+                margin: 173px 0 0

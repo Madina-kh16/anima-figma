@@ -1,0 +1,82 @@
+.form
+    background-image: url(../images/form-img.jpg)
+    &__gradient
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.93) 40.01%, rgba(0, 0, 0, 0.70) 66.12%, rgba(255, 255, 255, 0.00) 87.98%)
+        padding: 70px 0
+        @media (max-width: 767px)
+            padding: 78px 24px
+    &__title_1
+        color: #FFF
+        font-size: 28px
+        font-weight: 500
+        text-transform: uppercase
+        @media (max-width: 767px)
+            font-size: 21px
+    &__title_2
+        color: #FFF
+        font-size: 28px
+        font-weight: 500
+        text-transform: uppercase
+        margin: 10px 0 15px
+        @media (max-width: 767px)
+            font-size: 21px
+    &__text
+        color: #FFF
+        font-size: 18px
+        max-width: 530px
+        @media (max-width: 767px)
+            font-size: 14px
+            max-width: 238px
+    &__input_text
+        display: flex
+        width: 240px
+        padding: 0 0 0 20px
+        align-items: center
+        border: 1px solid rgba(243, 243, 243, 0.70)
+        background-color: transparent
+        color: #F3F3F3
+        font-size: 14px
+        height: 49px
+        @media (max-width: 767px)
+            width: 100%
+        &::placeholder
+            color: #F3F3F3
+
+    &__checkbox_none
+        display: none
+        @media (max-width: 767px)
+            display: block
+            color: #F3F3F3
+            font-size: 14px
+            margin: 12px 0 28px
+    &__btn
+        display: flex
+        width: 240px
+        height: 49px
+        justify-content: center
+        align-items: center
+        border: 1px solid rgba(243, 243, 243, 0.70)
+        cursor: pointer
+        background-color: #FFF
+        font-family: Raleway
+        font-size: 15px
+        font-weight: 700
+        @media (max-width: 767px)
+            width: 100%
+    &__checkbox
+        color: #F3F3F3
+        font-size: 14px
+        @media (max-width: 767px)
+            display: none
+    &__a
+        text-decoration-line: underline
+
+form
+    max-width: 760px
+    display: flex
+    justify-content: space-between
+    margin: 29px 0 20px
+    @media (max-width: 767px)
+        width: 100%
+        flex-direction: column
+        gap: 12px
